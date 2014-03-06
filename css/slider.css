@@ -1,0 +1,99 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+    width: 800px;
+    margin: 25px auto;
+    
+}
+
+#intro {
+    padding-bottom: 10px;
+}
+
+#slider {
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+	background-image:url('../Images/sliderBack.png	');
+	height: 380px;
+	
+}
+
+.scroll {
+	overflow: hidden;
+	width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.scrollContainer {
+	position: relative;
+}
+
+.scrollContainer div.panel {
+    padding: 10px;
+    width: 274px;
+	height: 340px;
+}
+
+#left-shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 12px;
+	bottom: 0;
+	background: url(../Images/leftshadow.png) repeat-y;
+}
+
+#right-shadow {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 12px;
+	bottom: 0;
+	background: url(../Images/rightshadow.png) repeat-y;
+}
+
+.inside {
+	padding: 10px;
+	background-image:url('../Images/black4.png');
+}
+
+.inside img {
+	display: block;
+	margin: 0 0 10px 0;
+	width: 250px;
+}
+
+.inside h2 {
+	font-weight: normal;
+	color: yellow;
+	font-size: 16px;
+	margin: 0 0 8px 0;
+}
+
+.inside p {
+	font-size: 9px;
+	color: white;
+}
+
+.scrollButtons {
+    position: absolute;
+    top: 127px;
+    cursor: pointer;
+}
+
+.scrollButtons.left {
+    left: -27px;
+}
+
+.scrollButtons.right {
+    right: -27px;
+}
+
+.hide {
+    display: none;
+}

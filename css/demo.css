@@ -1,0 +1,92 @@
+#main 
+{ 
+	height: 100% 
+}
+
+#main 
+{ 
+	padding: 1em; 
+}
+
+.basic  
+{
+	width: 800px;
+	background-image:url(../Images/black2.png);
+}
+
+.basic div 
+{
+}
+
+.basic p 
+{
+	margin-bottom : 10px;
+	border: none;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 0px;
+	padding: 5px;
+}
+
+.basic a 
+{
+	cursor:pointer;
+	display:block;
+	padding:5px;
+	margin-top: 0;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	background-image: url("../Images/black4.png");
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #999;
+	font-family:Century Gothic,Arial, Tahoma;
+	outline: none;
+}
+
+.basich1
+{
+	
+	font-size: 30px;
+	color: white;
+	font-family:Century Gothic,Arial, Tahoma;
+	text-decoration:none;
+}
+
+.basic a:hover 
+{
+	color: white;
+	background-image: url("../Images/ContactOver.png");
+	outline: none;
+}
+
+#phone
+{
+	background-image: url("../Images/phone.png");
+}
+
+#mail
+{
+	background-image: url("../Images/mail.png");
+}
+
+#form
+{
+	background-image: url("../Images/form.png");
+}
+.basic a.selected 
+{
+	color: white;
+	background-image: url("../Images/ContactSelected.png");
+}
+
+
+@media print {
+	.basic div
+	{
+		display: block!important;
+		height: auto!important
+	}
+}

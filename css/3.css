@@ -1,0 +1,11 @@
+body
+{
+	background-color:black;
+	font-family: Arial, Tahoma;
+	padding: 0;
+	margin: 0;
+	background-image:url('../Images/spaceDark.jpg');
+	background-attachment:fixed;
+	color:White;
+	font-size:10px;
+}
